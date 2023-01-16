@@ -1,13 +1,18 @@
-let name="Abror"
-let surname="Anvarov"
-let petname="sikubidu"
-let age =16
-let birtYear= 2008
-console.log(name);
-console.log(surname);
-console.log(petname);
-console.log(age);
-console.log(birtYear);
+let name =prompt("Ismingiz nima?")
+let surname =prompt("Familiyangiz nima?")
+let petname =prompt("hayvoningiz nomi")
+let age =prompt("yoshingiz nechada")
+let birtYear =prompt("nechanchi yilsiz")
 
+let obj ={}
+
+obj.name=name
+obj.surname=surname
+obj.petname=petname
+obj.petname=petname
+obj.age=age
+obj.birtYear=birtYear
+
+console.log(obj);
 
 
