@@ -1,18 +1,16 @@
-let name =prompt("Ismingiz nima?")
-let surname =prompt("Familiyangiz nima?")
-let petname =prompt("hayvoningiz nomi")
-let age =prompt("yoshingiz nechada")
-let birtYear =prompt("nechanchi yilsiz")
+let str = "widget with id";
+let result = ''; 
 
-let obj ={}
+function checkString(str){
+    for(let i = 0; i < str.length; i++){
+        if(!str [i].includes('i')){
+            result = result + str[i]
+           // result += str[i]
+        }
+    }
+    console.log(result)
+}
 
-obj.name=name
-obj.surname=surname
-obj.petname=petname
-obj.petname=petname
-obj.age=age
-obj.birtYear=birtYear
-
-console.log(obj);
+checkString(str)
 
 
